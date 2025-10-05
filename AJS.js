@@ -1,8 +1,13 @@
+let m = "100000";
+let o = "oresca";
+let screenName = "elijah";
 
-let usernameAnything;
+m = Number(m);
+o = String(o);
+screenName = Boolean(screenName);
 
-document.getElementById('onclickBtn').onclick = function (){
-  usernameAnything = document.getElementById('input').value;
-  document.getElementById('myH1').textContent = (`Did you know there's actually a reason why you put "${usernameAnything}"?`)
-  console.log(usernameAnything);
-}
+console.log(m, typeof m);
+console.log(o, typeof o);
+console.log(screenName, typeof screenName);
+
+
