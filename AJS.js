@@ -1,13 +1,10 @@
-let m = "100000";
-let o = "oresca";
-let screenName = "elijah";
+//let projectNumber;
 
-m = Number(m);
-o = String(o);
-screenName = Boolean(screenName);
+//projectNumber = window.prompt(`How many times have you made a mistake ${projectNumber}?`)
+let projectNumber = window.prompt("How many times have you made a mistake?")
 
-console.log(m, typeof m);
-console.log(o, typeof o);
-console.log(screenName, typeof screenName);
+//projectNumber++;
+projectNumber = Number(projectNumber)
+projectNumber+=1;
 
-
+console.log(projectNumber);
