@@ -1,8 +1,5 @@
+let projectNumbers = window.prompt('How many projects have you made?')
+projectNumbers = Number(projectNumbers);
+projectNumbers ++;
 
-let usernameAnything;
-
-document.getElementById('onclickBtn').onclick = function (){
-  usernameAnything = document.getElementById('input').value;
-  document.getElementById('myH1').textContent = (`Did you know there's actually a reason why you put "${usernameAnything}"?`)
-  console.log(usernameAnything);
-}
+console.log(projectNumbers)
