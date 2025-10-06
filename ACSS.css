@@ -1,0 +1,47 @@
+#countLabel {
+  display: block;
+  text-align: center;
+  font-size: 15em;
+  font-family: 'Times New Roman', Times, serif
+}
+
+#btnContainer {
+  position: relative;
+  height: 100vh;
+}
+
+#insideContainer {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.insideContainer-1,
+.insideContainer-2,
+.insideContainer-3 {
+  width: 8em;
+  padding: .9em;
+  color: white;
+  background-color: skyblue;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 2s;
+}
+
+.insideContainer-1:hover,
+.insideContainer-2:hover,
+.insideContainer-3:hover {
+  background-color: rgb(0, 26, 36);
+
+}
+
+
+.insideContainer-1 {
+  margin-right: 5px;
+}
+
+.insideContainer-2 {
+  margin-right: 5px;
+}
