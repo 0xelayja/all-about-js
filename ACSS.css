@@ -1,47 +1,32 @@
-#countLabel {
-  display: block;
-  text-align: center;
-  font-size: 15em;
-  font-family: 'Times New Roman', Times, serif
-}
-
-#btnContainer {
+.container {
   position: relative;
   height: 100vh;
 }
 
-#insideContainer {
+.roLL {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3em;
   position: absolute;
-  top: 1%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.insideContainer-1,
-.insideContainer-2,
-.insideContainer-3 {
-  width: 8em;
-  padding: .9em;
-  color: white;
-  background-color: skyblue;
-  font-size: 20px;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: background-color 2s;
+.labels {
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.insideContainer-1:hover,
-.insideContainer-2:hover,
-.insideContainer-3:hover {
-  background-color: rgb(0, 26, 36);
-
+.labels:nth-child(2) {
+  top: 15%;
 }
 
-
-.insideContainer-1 {
-  margin-right: 5px;
+.labels:nth-child(3) {
+  top: 30%;
 }
 
-.insideContainer-2 {
-  margin-right: 5px;
+.labels:nth-child(4) {
+  top: 45%;
 }
