@@ -1,28 +1,11 @@
-let x = 2
-let y = 4
-let z = 2
-
-//z = Math.round(y);
-//z = Math.floor(y); //always round down
-//z = Math.ceil(y); // always round up
-//z = Math.trunc(y); //will remove any decimal point  
-//z = Math.pow(x, y); // x to the power of y
-//z = Math.sqrt(x);
-//z = Math.log(x); //
 
 
-//trigonometry
+//let randomNum = Math.random(); // math will pick from between 0-1
+//let randomNum = Math.random() * 100; // from 0-100
+//let randomNum = Math.floor(Math.random() * 100) + 1; //always round down + 1-100 because we add + 1
 
-//z = Math.cos(x)
-//z = Math.sin(x)
-// z = Math.tan(x)
+const min = 100
+const max = 200
 
-//z = Math.abs(x); //absolute value
-//z = Math.sign(x);
-//z = Math.cos(x)
-let max = Math.max(x, y, z);
-let min = Math.min(x, y, z);
+let randomNum = Math.floor(Math.random() * (max - min)) + min; // Number will pick numbers from 50-100
 
-
-
-console.log(z);
