@@ -1,44 +1,40 @@
+//let number = 69
+//let message = number >= 88 ? "Okay I gotchu!" : "What the fuc you mean?";
+//console.log(message);
+
+//const time = 18; // from 0–23 (24-hour format)
+
+//const greeting = time < 12 ? "Good morning!" : time < 18 ? "Good afternoon!" : "Good evening!";
+//console.log(greeting);
+//const time = 18;
+
 /*
-const ROLL = document.getElementById('ROLL');
-const label1 = document.getElementById('label1');
-const label2 = document.getElementById('label2');
-const label3 = document.getElementById('label3');
-const max = 100;
-const min = 1;
-let randomNumb1;
-let randomNumb2;
-let randomNumb3;
+const time = 18; // from 0–23 (24-hour format)
 
+const greeting =
+  time < 12
+    ? "Good morning!"
+    : time < 18
+    ? "Good afternoon!"
+    : "Good evening!";
 
-document.getElementById('ROLL').onclick = function(){
-  randomNumb1 = Math.floor(Math.random() * max) + min; 
-  randomNumb2 = Math.floor(Math.random() * max) + min;
-  randomNumb3 = Math.floor(Math.random() * max) + min;
-  label1.textContent = randomNumb1
-  label2.textContent = randomNumb2
-  label3.textContent = randomNumb3
-}
-  */
+console.log(greeting); */
 
+//let greeting;
 
-
-const ROLL = document.getElementById('ROLL');
-const label1 = document.getElementById('label1');
-const label2 = document.getElementById('label2');
-const label3 = document.getElementById('label3');
-const max = 200;
-const min = 100;
-let randomNumb1;
-let randomNumb2;
-let randomNumb3;
-
-
-document.getElementById('ROLL').onclick = function(){
-  randomNumb1 = Math.floor(Math.random() * (max - min)) + min; 
-  randomNumb2 = Math.floor(Math.random() * (max - min)) + min;
-  randomNumb3 = Math.floor(Math.random() * (max - min)) + min;
-  label1.textContent = randomNumb1;
-  label2.textContent = randomNumb2;
-  label3.textContent = randomNumb3;
+/*if (time < 12) {
+//   greeting = "Good morning!";
+} else if (time < 18) {
+  greeting = "Good afternoon!";
+} else {
+  greeting = "Good evening!";
 }
 
+console.log(greeting);*/
+
+let purchaseAmount = 250;
+let discount = purchaseAmount >= 100 ? 10 : 0;
+console.log(`Your total is ${purchaseAmount - purchaseAmount * (discount/100)}`)
+
+
+//shortcut to else if statement
